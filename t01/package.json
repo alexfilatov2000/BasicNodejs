@@ -1,0 +1,22 @@
+{
+  "name": "t01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-static": "^5.0.0"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa-ejs": "^4.3.0",
+    "koa-router": "^10.0.0",
+    "koa-session": "^6.1.0"
+  }
+}
